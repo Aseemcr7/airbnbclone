@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>airbnb</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="icon" href="logo.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body class="font-poppi text-xl">
+    <header class=" hidden md:flex container pt-2 text-grey-600 pl-8 fixed top-4   justify-between items-center lg:flex container pt-2 text-grey-600  pl-8 sticky justify-between items-center">
+        <img class="ml-2 mt-3" src="https://mb.cision.com/Public/15142/2205445/a513362fe1243701_800x800ar.png" height="50px" width="140px">
+        <div class="flex  ml-[15pc]">
+            <h2 class="text-lg">Stays</h2>
+            <h2 class="ml-5 text-gray-400 text-lg mr-56 hover:text-black">Experiences</h2>
+        </div>
+        <div class="flex relative right-16 ">
+            <h2 class=" mr-8">Airbnb your home</h2>
+            <i class="fa fa-globe"></i>
+        </div>
+        <button class="rnd-btn">
+            <i class="fa-solid fa-bars  mr-3"></i><i class="fa-solid fa-user"></i>
+        </button>
+    </div>
+    </header>
+
+    <div class=" hidden sticky top-6  bg-white z-10 md:flex  lg:flex  w-4/6 mx-auto mt-5 h-16 rounded-full  justify-start items-center relative shadow-fullside border-2 border-slate-5ss00"> 
+             <div class="flex flex-col p-3 border-r-2 flex-grow hover:bg-slate-100 hover:rounded-full"><p class="text-sm font-bold">where</p><P class="hidden text-sm nm:inline-block   lg:inline-block">Search destinations</P></div>
+             <div class="flex flex-col p-3 border-r-2 w-1/6 pl-5 hover:bg-slate-100 hover:rounded-full"><p class="text-sm font-bold">Check in</p><p class="hidden text-sm nm:inline-block   lg:inline-block">Add dates</p></div>
+             <div class="flex flex-col p-3 border-r-2 w-1/6 pl-5 hover:bg-slate-100 hover:rounded-full"><p class="text-sm font-bold">Check out</p><p class="hidden text-sm nm:inline-block   lg:inline-block">Add dates</p></div>
+             <div class="flex flex-col p-3 flex-grow hover:bg-slate-100 hover:rounded-full"><p class="text-sm font-bold">Who</p><p class="hidden text-sm nm:inline-block   lg:inline-block">Add guest</p></div>
+             <i class="fa-solid fa-magnifying-glass absolute bg-red-500 border-none rounded-full p-3 text-2xl text-white right-2"></i>
+    </div>
+
+
+    
+    <div class="w-full relative overflow-x-auto mt-12">
+        <div class="flex justify-between items-center">
+            <button class="rounded-full text-sm border-2 h-9 w-9 p-1 border-gray-400 ml-11"><i class="fa-solid fa-chevron-left"></i></button>
+            <div class="flex space-x-6">
+                    <div class="flex flex-col items-center"><img class="h-8 w-8" src="i1.jpeg"><p class="text-sm">Country side</p></div>
+                    <div class="flex flex-col items-center"><img class="h-8 w-8" src="i2.jpeg"><P class="text-sm">Rooms</P></div>
+                    <div class="flex flex-col items-center"><img class="h-8 w-8" src="i3.jpeg"><p class="text-sm">Bed&breakfast</p> </div>
+                    <div class="flex flex-col items-center"><img class="h-8 w-8" src="i4.jpeg"><p class="text-sm">Tiny house</p></div>
+                    <div class="flex flex-col items-center"><img class="h-8 w-8" src="i5.jpeg"><p class="text-sm">Mansion</p></div>
+                    <div class="flex flex-col items-center"><img class="h-8 w-8" src="i6.jpeg"><p class="text-sm">Tree house</p></div>
+                    <div class="flex flex-col items-center"><img class="h-8 w-8" src="i7.jpeg"><p class="text-sm">Amazing pool</p></div>
+                    <div class="flex flex-col items-center"><img class="h-8 w-8" src="i8.jpeg"><p class="text-sm">Farms</p></div>
+                    <div class="flex flex-col items-center"><img class="h-8 w-8" src="i9.jpeg"><p class="text-sm">Amazing view</p></div>
+                    <div class="flex flex-col items-center"><img class="h-8 w-8" src="i10.jpeg"><p class="text-sm">Lake front</p></div>
+                    <div class="flex flex-col items-center"><img class="h-8 w-8" src="i11.jpeg"><p class="text-sm">OMG</p></div>
+                    <div class="flex flex-col items-center"><img class="h-8 w-8" src="https://a0.muscache.com/pictures/1b6a8b70-a3b6-48b5-88e1-2243d9172c06.jpg"><p class="text-sm">Castel</p></div>
+                    <div class="flex flex-col items-center"><img class="h-8 w-8" src="https://a0.muscache.com/pictures/732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg"><p class="text-sm">Cabins</p></div>
+                    <div class="flex flex-col items-center"><img class="h-8 w-8" src="https://a0.muscache.com/pictures/c8e2ed05-c666-47b6-99fc-4cb6edcde6b4.jpg" ><p class="text-sm">Luxe</p></div>
+                 </div>
+        <button class="rounded-full text-sm border-2 h-9 w-9 p-1 border-gray-400 mr-10"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+</div>
+
+    <div class="grid grid-cols-1  justify-center sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 m-3">
+        <div class="flex flex-col  items-start relative p-5 group mobile:items-center sm:items-start">
+            <img class="photo"  src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjIzMTk3NDU3MjE4Nzg2NA%3D%3D/original/f4cbe542-3ce0-4c6f-a8f1-d2120c1b2420.jpeg?im_w=1440&im_q=highq">
+            <p class="text-sm pt-3"><b>Train at the X-Mansion</b><br>
+                <span class="text-sm text-gray-400">Hosted by Jubilee</span><br>
+                <b>₹3,192 per guest</b>
+                <i class="fa-solid fa-arrow-up-from-bracket absolute p-2 top-9 right-9 border-none rounded-full bg-slate-300"></i>
+                <button class=" hidden group-hover:block absolute bottom-2/4 right-9 rounded-full text-sm h-8 w-8 bg-slate-100  border-none  p-2 ">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <div class="hidden group-hover:inline-block  absolute bottom-24 left-[42%] text-vs text-gray-400">
+                    <i class="fa-solid fa-circle text-white"></i>
+                    <i class="fa-solid fa-circle "></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+            </p>
+        </div>
+        <div class="flex flex-col items-start p-5  relative group mobile:items-center sm:items-start">
+            <img class="photo " src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4NzY0ODgzNzUzNjQzNw%3D%3D/original/1077cfcd-29d5-42b7-adab-19e0b620e492.jpeg?im_w=1440&im_q=highq">
+            <p class="text-sm pt-3"><b>Go VIP with Kevin Hart</b><br>
+                <span class="text-sm text-gray-400">Hosted by Kevin Hart<br></span>
+                <b>Coming 21 August</b>
+                <i class="fa-solid fa-arrow-up-from-bracket absolute p-2 top-9 right-9 border-none rounded-full bg-slate-300"></i>
+                <button class=" hidden group-hover:block absolute bottom-2/4 right-9 rounded-full text-sm h-8 w-8 bg-slate-100  border-none  p-2 ">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <div class="hidden group-hover:inline-block  absolute bottom-24 left-[42%] text-vs text-gray-400">
+                    <i class="fa-solid fa-circle text-white"></i>
+                    <i class="fa-solid fa-circle "></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+            </p>
+        </div>
+
+        <div class="flex flex-col items-start  relative group  p-5 mobile:items-center sm:items-start">
+            <img class="photo" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjMyMzc5Mzc2MTc3OTEzMg%3D%3D/original/01819c16-43a1-4aee-9957-9edce6eb8e16.png?im_w=1440&im_q=highq">
+            <p class="text-sm pt-3"><b>Join a living room session with Doja</b><br>                                
+                <span class="text-sm text-gray-400">Hosted by Doja Cat<br></span>
+                <b>Coming October</b>
+                <i class="fa-solid fa-arrow-up-from-bracket absolute p-2 top-9 right-9 border-none rounded-full bg-slate-300"></i>
+                <button class=" hidden group-hover:block absolute bottom-2/4 right-9 rounded-full text-sm h-8 w-8 bg-slate-100  border-none  p-2 ">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <div class="hidden group-hover:inline-block  absolute bottom-24 left-[42%] text-vs text-gray-400">
+                    <i class="fa-solid fa-circle text-white"></i>
+                    <i class="fa-solid fa-circle "></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+            </p>
+        </div>
+        <div class="flex flex-col items-start p-5 relative group mobile:items-center sm:items-start">
+            <img class="photo" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4OTQ5ODA0MDcwMTE4Mw%3D%3D/original/4f7a276e-9995-4b32-bda6-300de0619b25.png?im_w=1440&im_q=highq">
+            <p class="text-sm pt-3"><b>Stay in Prince’s Purple Rain house</b><br>
+                <span class="text-sm text-gray-400">Hosted by Wendy and Lisa</span><br>
+                <b>Coming October</b>
+                <i class="fa-solid fa-arrow-up-from-bracket absolute p-2 top-9 right-9 border-none rounded-full bg-slate-300"></i>
+                <button class=" hidden group-hover:block absolute bottom-2/4 right-9 rounded-full text-sm h-8 w-8 bg-slate-100  border-none  p-2 ">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <div class="hidden group-hover:inline-block  absolute bottom-24 left-[42%] text-vs text-gray-400">
+                    <i class="fa-solid fa-circle text-white"></i>
+                    <i class="fa-solid fa-circle "></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+            </p>
+        </div>
+        <div class="flex flex-col items-start p-5 relative group mobile:items-center sm:items-start">
+            <img class="photo" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2MjI1MjI0NDQ0MzYzMjM4Mg%3D%3D/original/ae3426d1-fba4-44d4-bed2-690426f25f7a.jpeg?im_w=1440&im_q=highq">
+            <p class="text-sm pt-3"><b>Open the Olympic Games at Musée d’Orsay</b><br>
+                <span class="text-sm text-gray-400">Hosted by Mathieu Lehanneur</span><br>
+                <b>Sold out</b>
+                <i class="fa-solid fa-arrow-up-from-bracket absolute p-2 top-9 right-9 border-none rounded-full bg-slate-300"></i>
+                <button class=" hidden group-hover:block absolute bottom-2/4 right-9 rounded-full text-sm h-8 w-8 bg-slate-100  border-none  p-2 ">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <div class="hidden group-hover:inline-block  absolute bottom-24 left-[42%] text-vs text-gray-400">
+                    <i class="fa-solid fa-circle text-white"></i>
+                    <i class="fa-solid fa-circle "></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+            </p>
+        </div>
+        <div class="flex flex-col items-start relative group p-5 mobile:items-center sm:items-start">
+            <img class="photo" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNTQ0NTEyMzEwMTI3NDg1MQ%3D%3D/original/bd73f0f8-9057-4bbc-ad70-1db13eb5c03f.png?im_w=1440&im_q=highq">
+            <p class="text-sm pt-3"><b>Wake up in the Musée d’Orsay</b><br>
+                <span class="text-sm text-gray-400">Hosted by Mathieu Lehanneur</span><br>
+                <b>Sold out</b>
+                <i class="fa-solid fa-arrow-up-from-bracket absolute p-2 top-9 right-9 border-none rounded-full bg-slate-300"></i>
+                <button class=" hidden group-hover:block absolute bottom-2/4 right-9 rounded-full text-sm h-8 w-8 bg-slate-100  border-none  p-2 ">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <div class="hidden group-hover:inline-block  absolute bottom-24 left-[42%] text-vs text-gray-400">
+                    <i class="fa-solid fa-circle text-white"></i>
+                    <i class="fa-solid fa-circle "></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+            </p>
+        </div>
+        <div class="flex flex-col items-start relative group p-5 mobile:items-center sm:items-start">
+            <img class="photo" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4NjI3OTI1MjIxNDQyOA%3D%3D/original/bc989f2d-eca8-4bcf-a9b0-b70b8e685a64.jpeg?im_w=1440&im_q=highq">
+            <p class="text-sm pt-3"><b>Live like Bollywood star Janhvi Kapoor</b><br>
+               <span class="text-sm text-gray-400"> Hosted by Janhvi Kapoor</span><br>
+                <b>Sold out</b>
+                <i class="fa-solid fa-arrow-up-from-bracket absolute p-2 top-9 right-9 border-none rounded-full bg-slate-300"></i>
+                <button class=" hidden group-hover:block absolute bottom-2/4 right-9 rounded-full text-sm h-8 w-8 bg-slate-100  border-none  p-2 ">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <div class="hidden group-hover:inline-block  absolute bottom-24 left-[42%] text-vs text-gray-400">
+                    <i class="fa-solid fa-circle text-white"></i>
+                    <i class="fa-solid fa-circle "></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+            </p>
+        </div>
+    </div>
+
+
+    <h1 class="heading ml-8"><B>Past Experiences</B></h1>
+    <div  class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 m-3">
+        <div class="flex flex-col items-start relative group p-5 mobile:items-center sm:items-start">
+            <img class="photo" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4MzUyMzk5Mjc3MDU5Nw%3D%3D/original/ced15ffe-0ab5-48cf-a189-dbdeaaf04387.jpeg?im_w=1440&im_q=highq">
+            <p class="text-sm pt-3"><b>Make core memories with Inside Out 2</b><br>
+               <span class="text-sm text-gray-400">Hosted by Joy</span><br>
+               <b>Sold out</b>
+               <i class="fa-solid fa-arrow-up-from-bracket absolute p-2 top-9 right-9 border-none rounded-full bg-slate-300"></i>
+               <button class=" hidden group-hover:block absolute bottom-2/4 right-9 rounded-full text-sm h-8 w-8 bg-slate-100  border-none  p-2 ">
+                   <i class="fa-solid fa-chevron-right"></i>
+               </button>
+               <div class="hidden group-hover:inline-block  absolute bottom-24 left-[42%] text-vs text-gray-400">
+                   <i class="fa-solid fa-circle text-white"></i>
+                   <i class="fa-solid fa-circle "></i>
+                   <i class="fa-solid fa-circle"></i>
+                   <i class="fa-solid fa-circle"></i>
+               </div>
+            </p>
+        </div>
+        <div class="flex flex-col items-start relative group p-5 mobile:items-center sm:items-start">
+            <img class="photo" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE0ODQ2MDI1NTE4MDMzOTQ4MQ%3D%3D/original/c92634d0-4964-439a-905d-b9129af14d34.jpeg?im_w=1440&im_q=highq">
+            <p class="text-sm pt-3"><b>Design your Incredibles Supersuit</b><br>
+               <span class="text-sm text-gray-400">Hosted by Edna Mode</span><br>
+               <b>Sold out</b>
+               <i class="fa-solid fa-arrow-up-from-bracket absolute p-2 top-9 right-9 border-none rounded-full bg-slate-300"></i>
+               <button class=" hidden group-hover:block absolute bottom-2/4 right-9 rounded-full text-sm h-8 w-8 bg-slate-100  border-none  p-2 ">
+                   <i class="fa-solid fa-chevron-right"></i>
+               </button>
+               <div class="hidden group-hover:inline-block  absolute bottom-24 left-[42%] text-vs text-gray-400">
+                   <i class="fa-solid fa-circle text-white"></i>
+                   <i class="fa-solid fa-circle "></i>
+                   <i class="fa-solid fa-circle"></i>
+                   <i class="fa-solid fa-circle"></i>
+               </div>
+            </p>
+        </div>
+        <div class="flex flex-col items-start relative group p-5 mobile:items-center sm:items-start">
+            <img class="photo" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjI0NzUwMDUwMTg2Mzg5MA%3D%3D/original/99417998-fa44-4c75-ae77-287c1468977b.jpeg?im_w=1440&im_q=highq">
+            <p class="text-sm pt-3"><b>Go on tour with Feid</b><br>
+               <span class="text-sm text-gray-400">Hosted by Feid</span><br>
+               <b>Sold out</b>
+               <i class="fa-solid fa-arrow-up-from-bracket absolute p-2 top-9 right-9 border-none rounded-full bg-slate-300"></i>
+               <button class=" hidden group-hover:block absolute bottom-2/4 right-9 rounded-full text-sm h-8 w-8 bg-slate-100  border-none  p-2 ">
+                   <i class="fa-solid fa-chevron-right"></i>
+               </button>
+               <div class="hidden group-hover:inline-block  absolute bottom-24 left-[42%] text-vs text-gray-400">
+                   <i class="fa-solid fa-circle text-white"></i>
+                   <i class="fa-solid fa-circle "></i>
+                   <i class="fa-solid fa-circle"></i>
+                   <i class="fa-solid fa-circle"></i>
+               </div>
+            </p>
+        </div>
+        <div class="flex flex-col items-start relative group p-5 mobile:items-center sm:items-start">
+            <img class="photo" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA3NzgxMzcwNzcxOTUzNQ%3D%3D/original/872f434b-9348-4ff1-8c6f-754fdbab4010.jpeg?im_w=1440&im_q=highq">
+            <p class="text-sm pt-3"><b>Game with Khaby Lame</b><br>
+               <span class="text-sm text-gray-400">Hosted by Khaby Lame</span><br>
+               <b>Sold out</b>
+               <i class="fa-solid fa-arrow-up-from-bracket absolute p-2 top-9 right-9 border-none rounded-full bg-slate-300"></i>
+               <button class=" hidden group-hover:block absolute bottom-2/4 right-9 rounded-full text-sm h-8 w-8 bg-slate-100  border-none  p-2 ">
+                   <i class="fa-solid fa-chevron-right"></i>
+               </button>
+               <div class="hidden group-hover:inline-block  absolute bottom-24 left-[42%] text-vs text-gray-400">
+                   <i class="fa-solid fa-circle text-white"></i>
+                   <i class="fa-solid fa-circle "></i>
+                   <i class="fa-solid fa-circle"></i>
+                   <i class="fa-solid fa-circle"></i>
+               </div>
+            </p>
+        </div>
+        <div class="flex flex-col items-start relative group p-5 mobile:items-center sm:items-start">
+            <img class="photo" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTg2NzMzNDc0MDk1Nzg4NA%3D%3D/original/b676fc8d-8250-4df0-a7cb-728b0486e371.jpeg?im_w=1440&im_q=highq">
+            <p class="text-sm pt-3"><b>Crash at the X-Mansion</b><br>
+               <span class="text-sm text-gray-400">Hosted by Jubilee</span><br>
+               <b>Sold out</b>
+               <i class="fa-solid fa-arrow-up-from-bracket absolute p-2 top-9 right-9 border-none rounded-full bg-slate-300"></i>
+               <button class=" hidden group-hover:block absolute bottom-2/4 right-9 rounded-full text-sm h-8 w-8 bg-slate-100  border-none  p-2 ">
+                   <i class="fa-solid fa-chevron-right"></i>
+               </button>
+               <div class="hidden group-hover:inline-block  absolute bottom-24 left-[42%] text-vs text-gray-400">
+                   <i class="fa-solid fa-circle text-white"></i>
+                   <i class="fa-solid fa-circle "></i>
+                   <i class="fa-solid fa-circle"></i>
+                   <i class="fa-solid fa-circle"></i>
+               </div>
+            </p>
+        </div>
+        <div class="flex flex-col items-start relative group p-5 mobile:items-center sm:items-start">
+            <img class="photo" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyMzIwMTE1Njc3Njg0MTIzOQ%3D%3D/original/fb9dcb8d-7fa5-402f-91ae-fa2a26e9f097.png?im_w=1440&im_q=highq">
+            <p class="text-sm pt-3"><b>Spend the night in the Ferrari Museum</b><br>
+               <span class="text-sm text-gray-400">Hosted by Marc Gené</span><br>
+               <b>Sold out</b>
+               <i class="fa-solid fa-arrow-up-from-bracket absolute p-2 top-9 right-9 border-none rounded-full bg-slate-300"></i>
+               <button class=" hidden group-hover:block absolute bottom-2/4 right-9 rounded-full text-sm h-8 w-8 bg-slate-100  border-none  p-2 ">
+                   <i class="fa-solid fa-chevron-right"></i>
+               </button>
+               <div class="hidden group-hover:inline-block  absolute bottom-24 left-[42%] text-vs text-gray-400">
+                   <i class="fa-solid fa-circle text-white"></i>
+                   <i class="fa-solid fa-circle "></i>
+                   <i class="fa-solid fa-circle"></i>
+                   <i class="fa-solid fa-circle"></i>
+               </div>
+            </p>
+        </div>
+        <div class="flex flex-col items-start relative group p-5 mobile:items-center sm:items-start">
+            <img class="photo" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjE4NTg5MzIzNjI0NjI2MA%3D%3D/original/e6b26733-2c15-47d9-b097-6968b39bb697.jpeg?im_w=1440&im_q=highq">
+            <p class="text-sm pt-3"><b>Drift off in the Up house</b><br>
+               <span class="text-sm text-gray-400">Hosted by Carl Fredricksen</span><br>
+               <b>Sold out</b>
+               <i class="fa-solid fa-arrow-up-from-bracket absolute p-2 top-9 right-9 border-none rounded-full bg-slate-300"></i>
+               <button class=" hidden group-hover:block absolute bottom-2/4 right-9 rounded-full text-sm h-8 w-8 bg-slate-100  border-none  p-2 ">
+                   <i class="fa-solid fa-chevron-right"></i>
+               </button>
+               <div class="hidden group-hover:inline-block  absolute bottom-24 left-[42%] text-vs text-gray-400">
+                   <i class="fa-solid fa-circle text-white"></i>
+                   <i class="fa-solid fa-circle "></i>
+                   <i class="fa-solid fa-circle"></i>
+                   <i class="fa-solid fa-circle"></i>
+               </div>
+            </p>
+        </div>
+        <div class="flex flex-col items-start relative group p-5 mobile:items-center sm:items-start">
+            <img class="photo" src="https://a0.muscache.com/im/pictures/miso/Hosting-881808599061267756/original/b16970cf-1d55-4edd-bb1f-e1735d0a228e.jpeg?im_w=1440&im_q=highq">
+            <p class="text-sm pt-3"><b>Shrek’s Swamp</b><br>
+               <span class="text-sm text-gray-400">Hosted by Donkey</span><br>
+               <b>Sold out</b>
+               <i class="fa-solid fa-arrow-up-from-bracket absolute p-2 top-9 right-9 border-none rounded-full bg-slate-300"></i>
+               <button class=" hidden group-hover:block absolute bottom-2/4 right-9 rounded-full text-sm h-8 w-8 bg-slate-100  border-none  p-2 ">
+                   <i class="fa-solid fa-chevron-right"></i>
+               </button>
+               <div class="hidden group-hover:inline-block  absolute bottom-24 left-[42%] text-vs text-gray-400">
+                   <i class="fa-solid fa-circle text-white"></i>
+                   <i class="fa-solid fa-circle "></i>
+                   <i class="fa-solid fa-circle"></i>
+                   <i class="fa-solid fa-circle"></i>
+               </div>
+            </p>
+        </div>
+        <div class="flex flex-col items-start relative group p-5 mobile:items-center sm:items-start">
+            <img class="photo" src="https://a0.muscache.com/im/pictures/miso/Hosting-857387972692815761/original/d106e0ef-f825-4ff8-baf7-86256a54fbd5.jpeg?im_w=1440&im_q=highq">
+            <p class="text-sm pt-3"><b>Barbie’s Malibu DreamHouse, Ken’s Way</b><br>
+               <span class="text-sm text-gray-400">Hosted by Ken</span><br>
+               <b>Sold out</b>
+               <i class="fa-solid fa-arrow-up-from-bracket absolute p-2 top-9 right-9 border-none rounded-full bg-slate-300"></i>
+               <button class=" hidden group-hover:block absolute bottom-2/4 right-9 rounded-full text-sm h-8 w-8 bg-slate-100  border-none  p-2 ">
+                   <i class="fa-solid fa-chevron-right"></i>
+               </button>
+               <div class="hidden group-hover:inline-block  absolute bottom-24 left-[42%] text-vs text-gray-400">
+                   <i class="fa-solid fa-circle text-white"></i>
+                   <i class="fa-solid fa-circle "></i>
+                   <i class="fa-solid fa-circle"></i>
+                   <i class="fa-solid fa-circle"></i>
+               </div>
+            </p>
+        </div>
+        <div class="flex flex-col items-start relative group p-5 mobile:items-center sm:items-start">
+            <img class="photo" src="https://a0.muscache.com/im/pictures/miso/Hosting-694055224756906854/original/76f85a0c-b3e2-4f1d-9aa9-d7838f2393c6.jpeg?im_w=1440&im_q=highq">
+            <p class="text-sm pt-3"><b>Ted Lasso’s Favorite Pub</b><br>
+               <span class="text-sm text-gray-400">Hosted by Mae</span><br>
+               <b>Sold out</b>
+               <i class="fa-solid fa-arrow-up-from-bracket absolute p-2 top-9 right-9 border-none rounded-full bg-slate-300"></i>
+               <button class=" hidden group-hover:block absolute bottom-2/4 right-9 rounded-full text-sm h-8 w-8 bg-slate-100  border-none  p-2 ">
+                   <i class="fa-solid fa-chevron-right"></i>
+               </button>
+               <div class="hidden group-hover:inline-block  absolute bottom-24 left-[42%] text-vs text-gray-400">
+                   <i class="fa-solid fa-circle text-white"></i>
+                   <i class="fa-solid fa-circle "></i>
+                   <i class="fa-solid fa-circle"></i>
+                   <i class="fa-solid fa-circle"></i>
+               </div>
+            </p>
+        </div>
+        <div class="flex flex-col items-star relative groupt p-5 mobile:items-center sm:items-start">
+            <img class="photo" src="https://a0.muscache.com/im/pictures/miso/Hosting-782615921189136934/original/c67f78f1-5807-449a-9a88-753b7fa62d6a.jpeg?im_w=1440&im_q=highq">
+            <p class="text-sm pt-3"><b>Houseplant Retreat</b><br>
+               <span class="text-sm text-gray-400">Hosted by Seth Rogen</span><br>
+               <b>Sold out</b>
+               <i class="fa-solid fa-arrow-up-from-bracket absolute p-2 top-9 right-9 border-none rounded-full bg-slate-300"></i>
+               <button class=" hidden group-hover:block absolute bottom-2/4 right-9 rounded-full text-sm h-8 w-8 bg-slate-100  border-none  p-2 ">
+                   <i class="fa-solid fa-chevron-right"></i>
+               </button>
+               <div class="hidden group-hover:inline-block  absolute bottom-24 left-[42%] text-vs text-gray-400">
+                   <i class="fa-solid fa-circle text-white"></i>
+                   <i class="fa-solid fa-circle "></i>
+                   <i class="fa-solid fa-circle"></i>
+                   <i class="fa-solid fa-circle"></i>
+               </div>
+            </p>
+        </div>
+        <div class="flex flex-col items-start relative group p-5 mobile:items-center sm:items-start">
+            <img class="photo" src="https://a0.muscache.com/im/pictures/miso/Hosting-53274539/original/365299e3-f926-47ee-bcbf-606d6a0370b9.jpeg?im_w=1440&im_q=highq">
+            <p class="text-sm pt-3"><b>Home Alone Holiday</b><br>
+               <span class="text-sm text-gray-400">Hosted by Buzz</span><br>
+               <b>Sold out</b>
+               <i class="fa-solid fa-arrow-up-from-bracket absolute p-2 top-9 right-9 border-none rounded-full bg-slate-300"></i>
+               <button class=" hidden group-hover:block absolute bottom-2/4 right-9 rounded-full text-sm h-8 w-8 bg-slate-100  border-none  p-2 ">
+                   <i class="fa-solid fa-chevron-right"></i>
+               </button>
+               <div class="hidden group-hover:inline-block  absolute bottom-24 left-[42%] text-vs text-gray-400">
+                   <i class="fa-solid fa-circle text-white"></i>
+                   <i class="fa-solid fa-circle "></i>
+                   <i class="fa-solid fa-circle"></i>
+                   <i class="fa-solid fa-circle"></i>
+               </div>
+            </p>
+        </div>
+        <div class="flex flex-col items-start relative group p-5 mobile:items-center sm:items-start">
+            <img class="photo" src="https://a0.muscache.com/im/pictures/be0957a9-da56-47d6-89ca-223b6e75321a.jpg?im_w=1440&im_q=highq">
+            <p class="text-sm pt-3"><b>The Last Blockbuster</b><br>
+               <span class="text-sm text-gray-400">Hosted by Sandi</span><br>
+               <b>Sold out</b>
+               <i class="fa-solid fa-arrow-up-from-bracket absolute p-2 top-9 right-9 border-none rounded-full bg-slate-300"></i>
+               <button class=" hidden group-hover:block absolute bottom-2/4 right-9 rounded-full text-sm h-8 w-8 bg-slate-100  border-none  p-2 ">
+                   <i class="fa-solid fa-chevron-right"></i>
+               </button>
+               <div class="hidden group-hover:inline-block  absolute bottom-24 left-[42%] text-vs text-gray-400">
+                   <i class="fa-solid fa-circle text-white"></i>
+                   <i class="fa-solid fa-circle "></i>
+                   <i class="fa-solid fa-circle"></i>
+                   <i class="fa-solid fa-circle"></i>
+               </div>
+            </p>
+        </div>        
+    </div>
+    <footer>
+        <h1 class="subhd ml-8"><b>Inspiration for future gateways</b></h1>
+        <div class="flex w-[60%] justify-between text-sm ml-8 mt-5 text-gray-600 font-semibold border-b-[1px] border-b-slate-400">  
+            <p class="border-b-2 border-b-slate-900 text-black ">Popular</p>
+            <p>Arts & culture</p>
+            <p>Outdoors</p>
+            <p>Mountains</p>
+            <p>Beach</p>
+            <p>Unique stays</p>
+            <p>Categories</p>
+            <p>Things to do</p> 
+        </div>
+        <div class="grid grid-flow-row  text-[15px] ml-8 mt-5 mr-8 border-b-[1px] border-b-slate-400 mobile:grid-cols-2 md:grid-cols-6">
+            <p><B>Canmore</B><span class="text-gray-600  mb-4 block">rentals</span></p>
+            <p><b>Benalmádena</b><span class="text-gray-600 mb-4 block">Flat rentals</span></p>
+            <p><b>Marbella</b> <span class="text-gray-600  mb-4 block">Villa rentals</span></p>
+            <p><b>Mijas</b><span class="text-gray-600  mb-4  block">Flat rentals</span></p>
+            <p><b>Prescott</b> <span class="text-gray-600  mb-4 block">Pet-friendly rentals</span></p>
+            <p><b>Scottsdale</b><span class="text-gray-600  mb-4 block">Holiday rentals</span></p>
+            <p><b>Tucson</b><span class="text-gray-600 mb-4 block">Flat rentals</span></p>
+            <p><b>Jasper</b><span class="text-gray-600  mb-4 block">Cabin rentals</span></p>
+            <p><b>Mountain View</b> <span class="text-gray-600  mb-4 block">Family-friendly rentals</span></p>
+            <p><b>Devonport</b><span class="text-gray-600  mb-4 block">Holiday rentals</span></p>
+            <p><b>Mallacoota</b><span class="text-gray-600  mb-4 block">Pet-friendly rentals</span></p>
+            <p><b>Ibiza</b><span class="text-gray-600  mb-4 block">Holiday rentals</span></p>
+            <p><b>Anaheim</b><span class="text-gray-600  mb-4 block">Apartment rentals</span></p>
+            <p><b>Monterey</b><span class="text-gray-600  mb-4 block">Cottage rentals</span></p>
+            <p><b>Paso Robles</b><span class="text-gray-600  mb-4 block">Cottage rentals</span></p>
+            <p><b>Santa Barbara</b><span class="text-gray-600  mb-4 block">Beach house rentals</span></p>
+            <p><b>Sonoma</b><span class="text-gray-600  mb-4 block">Pet-friendly rentals</span></p>
+            <P><b>Show more</b></P>
+        </div>
+        <div class="grid  ml-8 mr-8  mt-8 text-sm justify-between items-start border-b-[1px] border-b-slate-400 mobile:grid-cols-2 md:grid-cols-3">
+            <div>
+                <h3 class=" mb-4 font-semibold">Support</h3>
+                <p class=" mb-2">Help Centre</p>
+                <p class=" mb-2">AirCover</p>
+                <p class=" mb-2">Anti-discrimination</p>
+                <p class=" mb-2">Disability support</p>
+                <p class=" mb-2">Cancellation options</p>
+                <p class=" mb-2">Report neighbourhood concer</p>
+            </div>
+            <div>
+                <h3 class=" mb-4 font-semibold">Hosting</h3>
+                <p class=" mb-2">Airbnb your home</p>
+                <p class=" mb-2">AirCover for Hostsr</p>
+                <p class=" mb-2">Hosting resources</p>
+                <p class=" mb-2">Community forum</p>
+                <p class=" mb-2">Hosting responsibly</p>
+                <p class=" mb-2">Join a free Hosting class</p>
+            </div>
+            <div>
+                <h3 class=" mb-4 font-semibold">Airbnb</h3>
+                <p class=" mb-2">Newsroom</p>
+                <p class=" mb-2">New features</p>
+                <p class=" mb-2">Careers</p>
+                <p class=" mb-2">Investors</p>
+                <p class=" mb-2">Airbnb.org emergency stays</p>
+            </div>
+        </div>
+        <div class="grid  grid-flow-row justify-between mt-8 mr-8 ml-8 pb-4 mobile:grid-cols-1 md:grid-cols-2">
+            <div class="flex items-start text-base justify-between"> <p>© 2024 Airbnb, Inc</p>
+            <p>Privacy</p><p>Terms</p><p>Sitemap</p><p>Company details</p>
+        </div>
+        <div class="flex  w-full text-base mobile:justify-around mt-5 md:justify-end"> 
+            <i class="fa fa-globe text-xl mt-1"></i><p class="ml-3">English(in)</p>
+            <p class="ml-5">₹ INR</p>  
+            <i class="fa-brands fa-facebook ml-5 text-xl"></i>
+            <i class="fa-brands fa-square-instagram ml-5 text-xl"></i>
+            <i class="fa-brands fa-square-x-twitter ml-5 text-xl"></i>
+        </div>
+        
+        </div>
+    </footer>
+</body>
+</html>

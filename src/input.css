@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .rnd-btn{
+        @apply h-auto -right-9 text-gray-600 border-2 border-gray-300 p-3  bg-white absolute rounded-full
+    }
+    .photo{
+        @apply h-[280px] w-[360px] rounded-2xl border-none 
+    }
+    .heading{
+        @apply text-[2pc]
+    }
+    .subhd{
+        @apply text-[27px]
+    }
+}
